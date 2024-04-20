@@ -1,11 +1,11 @@
 # Personalized-Medical-Recommendation-System-with-Machine-Learning
-# [Your Website Name]
+# Health Care Centre 
 
-Welcome to [Your Website Name]! We are dedicated to helping individuals understand and manage their health better through predictive analysis of symptoms and personalized health information.
+Welcome to Health Care Centre ! We are dedicated to helping individuals understand and manage their health better through predictive analysis of symptoms and personalized health information.
 
 ## About
 
-[Your Website Name] utilizes cutting-edge technology to predict potential diseases based on reported symptoms. We provide comprehensive information including disease descriptions, precautions, medication guidance, workout suggestions, and dietary recommendations tailored to your specific symptoms and health needs.
+Health Care Centre utilizes cutting-edge technology to predict potential diseases based on reported symptoms. We provide comprehensive information including disease descriptions, precautions, medication guidance, workout suggestions, and dietary recommendations tailored to your specific symptoms and health needs.
 
 ## Features
 
@@ -23,7 +23,7 @@ Welcome to [Your Website Name]! We are dedicated to helping individuals understa
 
 ## Installation
 
-[Your Website Name] is a web-based platform, so there is no installation required. Simply visit our website at [Health Care Centre](YourWebsiteURL.com) to access our services.
+Health Care Centre is a web-based platform, so there is no installation required. Simply visit our website at [Health Care Centre](YourWebsiteURL.com) to access our services.
 
 ## Contributing
 
