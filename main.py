@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify  # Import jsonify
 import numpy as np
 import pandas as pd
 import pickle
+import joblib
 
 
 # flask app
@@ -19,7 +20,7 @@ diets = pd.read_csv("datasets/diets.csv")
 
 
 # load model===========================================
-svc = pickle.load(open('svc (2).pkl','rb'))
+svc = joblib.load("svc (2).pkl")
 
 
 #============================================================
@@ -51,7 +52,9 @@ def get_predicted_value(patient_symptoms):
     input_vector = np.zeros(len(symptoms_dict))
     for item in patient_symptoms:
         input_vector[symptoms_dict[item]] = 1
-    return diseases_list[svc.predict([input_vector])[0]]
+    prediction = svc.predict([input_vector]).item()
+return diseases_list.get(prediction, "Unknown Disease")
+
 
 
 
